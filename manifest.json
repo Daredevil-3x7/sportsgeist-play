@@ -1,0 +1,19 @@
+{
+  "name": "Sportsgeist",
+  "short_name": "Sportsgeist",
+  "description": "Pick games against people you know.",
+  "start_url": "/sportsgeist-play/",
+  "scope": "/sportsgeist-play/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0B0B0B",
+  "theme_color": "#0B0B0B",
+  "icons": [
+    {
+      "src": "/sportsgeist-play/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
