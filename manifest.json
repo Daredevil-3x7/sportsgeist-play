@@ -1,0 +1,103 @@
+{
+  "id": "/sportsgeist-play/",
+  "name": "Sportsgeist",
+  "short_name": "Sportsgeist",
+  "description": "Pick games against people you know.",
+  "lang": "en",
+  "dir": "ltr",
+  "start_url": "/sportsgeist-play/",
+  "scope": "/sportsgeist-play/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0B0B0B",
+  "theme_color": "#0B0B0B",
+  "launch_handler": {
+    "client_mode": [
+      "navigate-existing",
+      "auto"
+    ]
+  },
+  "icons": [
+    {
+      "src": "/sportsgeist-play/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/sportsgeist-play/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/sportsgeist-play/icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/sportsgeist-play/icons/badge-96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "monochrome"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Your matches",
+      "short_name": "Your matches",
+      "url": "/sportsgeist-play/live",
+      "icons": [
+        {
+          "src": "/sportsgeist-play/icons/shortcut-locks-96.png",
+          "sizes": "96x96",
+          "type": "image/png",
+          "purpose": "any"
+        }
+      ]
+    },
+    {
+      "name": "New duel",
+      "short_name": "New duel",
+      "url": "/sportsgeist-play/duel/new",
+      "icons": [
+        {
+          "src": "/sportsgeist-play/icons/shortcut-duel-96.png",
+          "sizes": "96x96",
+          "type": "image/png",
+          "purpose": "any"
+        }
+      ]
+    },
+    {
+      "name": "Weekly Five",
+      "short_name": "Weekly Five",
+      "url": "/sportsgeist-play/weekly",
+      "icons": [
+        {
+          "src": "/sportsgeist-play/icons/shortcut-weekly-96.png",
+          "sizes": "96x96",
+          "type": "image/png",
+          "purpose": "any"
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/sportsgeist-play/screenshots/dashboard.jpg",
+      "sizes": "1080x1920",
+      "type": "image/jpeg",
+      "form_factor": "narrow",
+      "label": "Your dashboard: level, form and what locks next"
+    },
+    {
+      "src": "/sportsgeist-play/screenshots/duel.jpg",
+      "sizes": "1080x1920",
+      "type": "image/jpeg",
+      "form_factor": "narrow",
+      "label": "A settled duel: who took the pot"
+    }
+  ]
+}
